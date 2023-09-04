@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>forms</title>
+  </head>
+  <body style="background-color: cornsilk">
+    <form method="post" action="Backend.html">
+      <fieldset>
+        <legend><h1>Enter your details</h1></legend>
+        <label for="username"> <b>Username:</b></label>
+        <input
+          type="text"
+          placeholder="username"
+          name="username"
+          id="username"
+        />
+        <br />
+        <br />
+        <label for="password"> <b>Password:</b></label>
+        <input
+          type="password"
+          placeholder="password"
+          name="password"
+          id="password"
+        />
+        <br />
+        <br />
+        <label for="DOB"> <h3>DOB:</h3></label>
+        <input type="date" name="DOB" value="DOB" />
+        <br />
+        <br />
+        <label for="TIME"> <h3>TIME:</h3> </label>
+        <input type="time" name="time" value="DOB" />
+        <br />
+        <br />
+        <h3>Radio buttons:</h3>
+        <label for="gender"> Gender: </label>
+        <input type="radio" name="gender" id="gender" value=" gender" /> Male
+        <input type="radio" name="gender" id="gender" value="gender" /> Female
+        <br />
+
+        <br />
+        <br />
+
+        <label for="checkbox"> <h3>Checkboxes</h3></label>
+        <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" />
+        Maths
+        <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" />
+        Science
+        <br />
+        <br />
+        <h3>Number:</h3>
+        <input type="number" name="number" id="number" value="number" />
+        <br />
+        <br />
+
+        <h3>File Saving :</h3>
+
+        <input type="file" name "upload file " accept="video/*" ?>
+        <br />
+        <br />
+        <h3>Dropdown:</h3>
+        <select name=" dropdown" id="dropdown">
+          <option value="C language">C language</option>
+          <option value=" Java">Java</option>
+          <option value="python" selected>Python</option>
+          <option value="C++">C++</option>
+        </select>
+        <br />
+        <br />
+        <h3>Range:</h3>
+        <input type="range" name="range" id="range" />
+        <br />
+        <br />
+        <label for="-"></label>
+        <input type="reset" name="reset" id="reset" />
+        <br />
+
+        <br />
+
+        <h3>Submit button:</h3>
+          <input type="submit" name="submit" id="submit" />
+        </a>
+      </fieldset>
+    </form>
+  </body>
+</html>

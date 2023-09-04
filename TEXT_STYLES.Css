@@ -1,0 +1,48 @@
+h1 {
+  color: brown;
+  background-color: yellow;
+  text-align: center;
+  direction: ltr;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+}
+
+h3 {
+  text-decoration: line-through brown double 2px;
+}
+
+#para1 {
+  text-transform: capitalize;
+}
+
+#para2 {
+  text-transform: uppercase;
+}
+
+.para3 {
+  text-transform: lowercase;
+}
+
+h5 {
+  text-indent: 88px;
+}
+
+h4 {
+  line-height: 50px;
+}
+
+b {
+  letter-spacing: 5px;
+}
+i {
+  word-spacing: 20px;
+}
+
+strong {
+  text-shadow: 2px 5px 4px red, 4px 6px 8px yellow, 9px 11px 15px brown;
+}

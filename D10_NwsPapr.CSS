@@ -1,0 +1,10 @@
+.date {
+  float: left;
+  text-decoration: underline red;
+}
+
+.month {
+  float: right;
+  text-decoration: underline red;
+}
+

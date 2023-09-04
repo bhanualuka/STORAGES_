@@ -1,0 +1,39 @@
+.class {
+  color: maroon;
+  background-color: aqua;
+}
+
+#helo {
+  color: yellow;
+  background-color: red;
+}
+
+#hi {
+  color: brown;
+  background-color: yellow;
+}
+
+/* DESCENDANT SELECTOR (" ") 
+
+div p {
+  color: blueviolet;
+  background-color: navajowhite;
+} */
+
+/* CHILD SELECTOR ( ">") 
+div > p {
+  color: red;
+  background-color: lavenderblush;
+} */
+
+/* ADJACENT SIBLING SELECTOR (   " + "   ) 
+div + p {
+  color: brown;
+  background-color: yellow;
+} */
+
+/*  GENERAL SIBLING SELECTOR (  " ~ "  )
+div ~ p {
+  color: brown;
+  background-color: yellow;
+} */

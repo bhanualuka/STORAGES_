@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 5</title>
+  </head>
+  <body style="background-color: cornsilk">
+  
+
+    <div style="background-color: aquamarine">
+      <h3 align="center" style="color: brown">
+        <u>Employee Registration form </u>
+      </h3>
+
+      <hr />
+    </div>
+
+    <fieldset>
+      <legend><h4>Enter your Details</h4></legend>
+      <br />
+      <form action="Backend.html" method="get" autocomplete="off">
+        <label for="FirstName"> FirstName </label>
+        <input
+          type="text"
+          name="username"
+          id="FirstName"
+          autocapitalize="on"
+          autofocus
+          pattern="[ a-zA_Z]{0-8}"
+          <!--
+          regexpattern
+          --
+        />
+
+        <br />
+        <br />
+
+        <label for="MiddleName"> MiddleName</label>
+        <input type="text" name="username" id="MiddleName" disabled />
+        <br />
+        <br />
+        <label for="LastName"> LastName </label>
+        <input type="text" name="username" id="LastName" readonly />
+        <br />
+        <br />
+
+        <label for="Father's Name"> Father's Name</label>
+        <input
+          type="text"
+          name="fathers name"
+          id=" Father's name"
+          size="10"
+          maxlength="10"
+        />
+        <br />
+        <br />
+
+        <label for="Course">Course:</label>
+        <select name=" Dropdown" id=" Course">
+          <optgroup label=" Programming languages">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C language">C lanaguage</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="ReactJs">ReactJs</option>
+            <option value="NodeJs">NodeJs</option>
+          </optgroup>
+          <optgroup label=" Web Techonologies">
+            <option value=" HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="BOOTstrap"></option>
+          </optgroup>
+          <option value="Course" selected>Course</option>
+        </select>
+        <br />
+        <br />
+        <label for=" male"> Gender: </label> <br />
+        <input type="radio" name="gender" id="male" /> Male <br />
+        <input type="radio" name="gender" id="female" /> Female <br />
+        <input type="radio" name="gender" id="other" /> Others
+        <br />
+        <br />
+        <label for=" dob">DOB:</label>
+        <input
+          type="date"
+          name="dob"
+          id="dob"
+          min="1990-08-04"
+          max="2024-08-04"
+        /><br />
+        <br />
+        <label for="Caste"> Caste: </label>
+        <input type="checkbox" name="caste" id="caste" />SC
+        <input type="checkbox" name="caste" id="caste" />BC
+        <input type="checkbox" name="caste" id="caste" />OC
+        <br />
+        <br />
+        <br />
+        <label for=" languages "> Languages known:</label>
+        <input list=" languages" />
+        <datalist id=" languages">
+          <option value="Telugu">Telugu</option>
+          <option value="Hindi">Hindi</option>
+          <option value="English">English</option>
+          <option value="Urdu">Urdu</option>
+          <option value="Tamil">Tamil</option>
+        </datalist>
+        <br />
+        <br />
+
+        <label for="Resume"> Upload your Resume: </label><br />
+        <input type="file" name="UploadResume" id="Resume" />
+        <br />
+        <br />
+        <br />
+
+        <label for=" phone number"> Phone:</label>
+        <input type="number" name="number" id="phone number" min="1" max="10" />
+        <br />
+        <br />
+        <label for="tel">tel:</label>
+        <input type="tel" name="tel" id="tel" min="1" max="10" />
+        <br />
+        <br />
+
+        <label for="Address"> Address</label> <br />
+        <textarea name="Address" id="Address" cols="60" rows="6"> </textarea>
+        <br />
+        <br />
+        <label for="Email"> Email: </label>
+        <input type="Email" name="Email" id="Email" />
+        <br />
+        <br />
+        <label for="Password"> Password:</label>
+        <input type="Password" name="password" id="Password" required />
+        <br /><br />
+
+        <input type="Submit" value="submit" /><br />
+        <br />
+
+        <input type="submit" value="sign up" formaction="external.html" />
+      </form>
+    </fieldset>
+  </body>
+</html>
